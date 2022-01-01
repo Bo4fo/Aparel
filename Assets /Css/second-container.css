@@ -79,10 +79,10 @@
     height: 400px;
 }
 
-second-product-item-1 {
+/* .second-product-item-1 {
     width: 30%;
     text-align: center;
-}
+} */
 
 .second-product-item-1 img {
     width: 100%;
@@ -105,24 +105,20 @@ second-product-item-1 {
 }
 
 .image-0 {
-    margin-top: -470px;
-    height: 400px;
+    margin-top: -557px;
+    /* height: 408px; */
     cursor: pointer;
-
-
-
 }
 
 .image-1 {
     margin-left: 34px;
-    margin-top: -590px;
+    margin-top: -605px;
     height: 390px;
     cursor: pointer;
-
 }
 
 .image-2 {
-    margin-top: -550px;
+    margin-top: -565px;
     margin-left: 43px;
     cursor: pointer;
     height: 380px;
@@ -130,7 +126,7 @@ second-product-item-1 {
 }
 
 .image-3 {
-    margin-top: -590px;
+    margin-top: -610px; 
     margin-left: 43px;
     cursor: pointer;
     height: 390px;
@@ -194,10 +190,12 @@ second-product-item-1 {
 .filt-price{
     width: 200px;
     height: 80px;
-    align-items: center;
-    margin-left: 60px;
-    padding-top: 15px;
-    
+    /* align-items: center; */
+    /* margin-left: 60px;
+    padding-top: 15px; */
+    position: relative;
+    top: 22px;
+    left: 31px;
   }
 
   .slidecontainer {
@@ -272,31 +270,48 @@ second-product-item-1 {
     margin-left: -190px;
 
 }
-.cl-1{
+/* .cl-1{
    margin-left: 50px;
   margin-top: -140px;
     color: #000;
-    /* background-color: #0000ff; */
+    background-color: #0000ff;
    
-  }
+  } */
+
 .color-p1{
-    margin: 5px;
+    /* margin: 5px; */
+    position: relative;
+    top: -135px;
+    left: 45px;
 }
+
 .color-p2{
-    margin-top: 12px;
-    margin-left: 5px;
+    /* margin-top: 12px;
+    margin-left: 5px; */
+    position: relative;
+    top: -145px;
+    left: 45px;
 }
 .color-p3{
-    margin-top: -6px;
-    margin-left: 5px;
+    /* margin-top: -6px;
+    margin-left: 5px; */
+    position: relative;
+    top: -157px;
+    left: 45px;
 }
 .color-p4{
-    margin-top: -6px;
-    margin-left: 5px;
+    /* margin-top: -6px;
+    margin-left: 5px; */
+    position: relative;
+    top: -166px;
+    left: 44px;
 }
 .color-length{
-    margin-left: 215px;
-}
+   position: relative;
+   top: 5px;
+   left: 215px;
+
+} 
 
 .site-block-27 {
     /* background-color: #d6ded6; */
@@ -311,8 +326,18 @@ second-product-item-1 {
 
   .site-block-links a {
     /* text-decoration: none; */
-    display: inline-block;
+    /* display: inline-flex;
+    position: relative;
+    top: 125px;
+    left: 229px; */
+    padding-block: initial;
+    align-items: stretch;
+    display: inline-flex;
     padding: 8px 16px;
+    justify-content: space-between;
+    position: relative;
+    /* top: 125px;
+    left: 229px; */
   }
 
   .site-block-links a:hover {

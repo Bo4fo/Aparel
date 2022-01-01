@@ -258,9 +258,9 @@
 }
 
 .model-category {
-    position: absolute;
+    position: relative;
     display: inline-block;
-    padding: 8px 16px;
+    padding: 13px 16px;
     background: #6f72c1;
     color: #000;
     z-index: 8;
@@ -291,6 +291,8 @@
     height: auto;
     display: block;
     margin: 0 auto;
+    position: relative;
+    top: -182px;
 
 }
 
@@ -299,16 +301,16 @@
     width: 220px;
     height: 255px;
     display: block;
-    margin-top: 20px;
+    margin-top: -195px;
     margin-left: 50px;
 
 
 }
 
 .model-category-2 {
-    position: absolute;
+    position: relative;
     display: inline-block;
-    padding: 8px 16px;
+    padding: 13px 16px;
     background: #6f72c1;
     color: #000;
     z-index: 8;
@@ -487,10 +489,14 @@
     text-transform: uppercase;
     color: #050101;
     text-align: center;
+    position: relative;
+    top: -15px;
 }
 
 .text-black {
     /* margin-top: ; */
+    position: relative;
+    left: -24px;
 }
 
 .dropdown {
@@ -600,7 +606,7 @@
 .side-section-shop-2 {
     background-color: #f4f3f5;
     width: 250px;
-    height: 550px;
+    height: 602px;
     margin-left: 840px;
     border-radius: 5px;
     margin-top: 28px;
@@ -611,7 +617,7 @@
     width: 100px;
     height: 80px;
     align-items: center;
-    margin-left: 70px;
+    margin-left: 107px;
     padding-top: 20px;
 }
 .list-group-horizontal-sm{
@@ -718,32 +724,6 @@ ul {
     margin-right: 20px;
   }
 
-  /* .quick-links {
-    display: flex;
-    flex-wrap: wrap;
-  }
-  
-  .quick-links ul {
-    margin-top: -53%;
-
-    list-style: none;
-    margin: 0;
-    padding: 0;
-    display: flex;
-    flex-wrap: wrap;
-  }
-  
-  .quick-links li {
-    flex-basis: calc(33.33% - 20px);
-  }
-   */
-  @media screen and (max-width: 767px) {
-    .quick-links li {
-      flex-basis: calc(50% - 20px);
-    }
-  }
-  
-  
   .quick-links a {
     color: #333;
     text-decoration: none;
@@ -782,4 +762,3 @@ ul {
   .subscribe button:hover {
     background-color: rgba(81, 87, 253, 0.752);;
   }
-  

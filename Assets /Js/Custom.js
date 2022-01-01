@@ -1,18 +1,7 @@
-const slider = document.getElementById("myRange");
-const valueOutput = document.getElementById("demo");
-
-// Set the default slider values
-let min = 1;
-let max = 100;
-let value = 50;
-
-// Update the money value based on the default slider value
-valueOutput.innerHTML = "$" + (value * 100).toFixed(2);
-
-// Create the slider and listen for changes to the slider value
-slider.addEventListener("input", function(event) {
-  // Update the money value based on the current slider value
-  const currentValue = event.target.value;
-  const price = currentValue * 20;
-  valueOutput.innerHTML = "$" + price.toFixed(2);
+// Menu side toggle
+$('document').ready(function(){
+  $('button.navbar-toggle').click(function(){
+    var navbar_obj = $($(this).data("target"));
+    navbar_obj.toggleClass("open");
+  });
 });
