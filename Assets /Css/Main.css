@@ -430,23 +430,23 @@
 
 .container-section-shop {
     width: 1274px;
-    height: 900px;
+    height: 1800px;
     margin-top: 151px;
     margin-right: 200px;
     overflow: hidden;
     background-color: #770909;
 }
-
+/* container for products */
 .row-container-section-shop {
     margin-top: 50px;
-    background-color: #8a8a8a;
+    background-color: #12b125;
     width: 960px;
-    height: 3254px;
+    height: 5554px;
     margin-left: 50px;
 }
 
 .row-align {
-    width: 100px;
+    width: 130px;
     height: 50px;
     background-color: #f7f5f5;
     margin-left: 40px;
@@ -487,9 +487,9 @@
 }
 
 .d-flex {
-    margin-left: 500px;
+    margin-left: 430px;
     margin-top: -50px;
-    background-color: #6c70eb;
+    background-color: #0d1185;
     width: 400px;
     height: 45px;
 }
@@ -579,17 +579,17 @@
     background-color: #f8f8f8;
     width: 250px;
     height: 190px;
-    margin-left: 940px;
+    margin-left: 840px;
     border-radius: 5px;
     margin-top: -50px;
 
 }
 
 .side-section-shop-2 {
-    background-color: #5c0c94;
+    background-color: #f4f3f5;
     width: 250px;
-    height: 450px;
-    margin-left: 940px;
+    height: 550px;
+    margin-left: 840px;
     border-radius: 5px;
     margin-top: 28px;
 
@@ -630,11 +630,4 @@ ul {
     margin-left: 10px;
 
   }
-  .filt-price{
-    width: 200px;
-    height: 80px;
-    align-items: center;
-    margin-left: 60px;
-    padding-top: 15px;
-    
-  }
+ 

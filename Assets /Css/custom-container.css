@@ -1,0 +1,101 @@
+.product-shelf-1{
+    width: 340px;
+    height: 400px;
+    background-color: blueviolet;
+    margin-top: 50px;
+    
+}
+
+.shelf-img0{
+    margin-top: 98px;
+    margin-left: 33px;
+    cursor: pointer;
+    height: 350px;
+    /* background-color: aqua; */
+}
+.product-shelf-2{
+    width: 340px;
+    height: 400px;
+    background-color: rgb(226, 110, 43);
+    margin-top: -400px;
+    margin-left: 420px;
+    
+}
+
+.shelf-img2{
+    margin-top:98px;
+    margin-left: 33px;
+    cursor: pointer;
+    height: 350px;
+    /* background-color: aqua; */
+}
+.product-shelf-3{
+    width: 340px;
+    height: 400px;
+    background-color: blueviolet;
+    margin-top: 130px;
+    
+}
+
+.shelf-img3{
+    margin-top: 98px;
+    margin-left: 33px;
+    cursor: pointer;
+    height: 350px;
+    /* background-color: aqua; */
+}
+.product-shelf-4{
+    width: 340px;
+    height: 400px;
+    background-color: rgb(181, 119, 12);
+    margin-top: -400px;
+   margin-left: 420px;
+    
+}
+
+.shelf-img4{
+    margin-top: 98px;
+    margin-left: 33px;
+    cursor: pointer;
+    height: 350px;
+    /* background-color: aqua; */
+}
+.product-shelf-5{
+    width: 340px;
+    height: 400px;
+    background-color: blueviolet;
+    margin-top: 130px;
+    
+}
+
+.shelf-img5{
+    margin-top: 98px;
+    margin-left: 33px;
+    cursor: pointer;
+    height: 350px;
+    /* background-color: aqua; */
+}
+.product-shelf-6{
+    width: 340px;
+    height: 400px;
+    background-color: blueviolet;
+    margin-top: -400px;
+    margin-left: 420px;
+    
+}
+
+.shelf-img6{
+    margin-top: 98px;
+    margin-left: 33px;
+    cursor: pointer;
+    height: 350px;
+    /* background-color: aqua; */
+}
+.shelf-item0{
+    margin-top: -455px;
+}
+.shelf-rating{
+    color: #5e5e5e;
+    font-size: 13px;
+    
+}
