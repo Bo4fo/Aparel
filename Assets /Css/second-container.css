@@ -290,3 +290,32 @@ second-product-item-1 {
 .color-length{
     margin-left: 215px;
 }
+
+.site-block-27 {
+    /* background-color: #d6ded6; */
+    width: 300px;
+    height: 50px;
+    margin-top: 150px;
+    margin-left: 250px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+
+  .site-block-links a {
+    /* text-decoration: none; */
+    display: inline-block;
+    padding: 8px 16px;
+  }
+
+  .site-block-links a:hover {
+    background-color: #d8cfcf;
+    color: #7a16b3;
+  }
+  
+  .round {
+    border-radius: 50%;
+    background-color: #0000ff;
+    margin: 2px;
+    text-decoration: none;
+  }

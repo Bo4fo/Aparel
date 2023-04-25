@@ -1,5 +1,7 @@
 @import url('https://fonts.googleapis.com/css2?family=Nanum+Myeongjo&display=swap');
 
+
+
 .navbar-nav {
     display: flex;
     justify-content: center;
@@ -165,9 +167,9 @@
 }
 
 .container-down-box {
-
     padding: 40px;
     margin-top: 110px;
+    /* background-color: #0d1185; */
 
 }
 
@@ -353,9 +355,6 @@
     z-index: 1;
 }
 
-
-
-
 .container-small-box {
     position: absolute;
 
@@ -430,7 +429,7 @@
 
 .container-section-shop {
     width: 1274px;
-    height: 1800px;
+    height: 3000px;
     margin-top: 151px;
     margin-right: 200px;
     overflow: hidden;
@@ -595,7 +594,7 @@
 
 }
 
-.text-uppercase {
+.text-uppercase-categories {
     width: 100px;
     height: 80px;
     align-items: center;
