@@ -6,6 +6,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
     <title>Apparel</title>
     <link rel="stylesheet" href="/Assets /Css/Main.css">
+    <link rel="stylesheet" href="/Assets /Css/aos.css">
     <link rel="stylesheet" href="/Assets /Css/mobile.view.css">
     <link rel="stylesheet" href="/Assets /Css/second-container.css">
     <link rel="stylesheet" href="/Assets /Css/third-container.css">
@@ -14,14 +15,15 @@
         integrity="sha384-GLhlTQ8iRABdZLl6O3oVMWSktQOp6b7In1Zl3/Jr59b6EGGoI1aFkw7cmDA6j6gD" crossorigin="anonymous">
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/css/all.min.css">
 
-<body>
+<body data-aos-easing="slide" data-aos-duration="800" data-aos-delay="0" class="offcanvas-menu">
    
     <!--Top Navigation Bar container-->
     <nav class="navbar navbar-expand-md navbar-light bg-white">
         <a class="navbar-brand" href="#">Apparel</a>
-        <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav"
-            aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
-            <span class="navbar-toggler-icon"></span>
+        <button class="navbar-toggler" type="button"    
+               data-toggle="collapse" data-target="#navbarNav"
+                aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+                   <a href="#" class="search-close js-search-close"> <span class="navbar-toggler-icon"></span></a>
         </button>
         <div class="collapse navbar-collapse justify-content-center" id="navbarNav">
             <ul class="navbar-nav">
@@ -46,15 +48,19 @@
                         <input class="search-txt" type="text" name="" placeholder="Type to Search">
                    <a class="search-btn" href="#">
                      <i class="fas fa-search"></i>
-                   </a>
+                    </a>
                    </div>
                    <i class="far fa-heart"></i>
                    <i class="fas fa-shopping-cart"></i>
+               
                 </div>
+            </ul>
         </div>
     </nav>
+
+      
     <div class="header">
-        <img src="Assets /images /header-bg.png" alt="header image" class="header-img">
+        <img src="Assets /images /header-bg.png" alt="header image" class="header-img" class="img-h">
     </div>
     <div class="container">
         <div class="sub-title">#NEW SUMMER COLLECTION 2023</div>
