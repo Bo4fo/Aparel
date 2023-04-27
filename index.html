@@ -3,9 +3,10 @@
 
 <head>
     <meta charset="utf-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
     <title>Apparel</title>
     <link rel="stylesheet" href="/Assets /Css/Main.css">
+    <link rel="stylesheet" href="/Assets /Css/mobile.view.css">
     <link rel="stylesheet" href="/Assets /Css/second-container.css">
     <link rel="stylesheet" href="/Assets /Css/third-container.css">
     <link rel="stylesheet" href="/Assets /Css/custom-container.css">
@@ -14,6 +15,28 @@
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/css/all.min.css">
 
 <body>
+    <div class="site-mobile-menu"><div class="site-mobile-menu-header"><div class="site-mobile-menu-logo"><a href="index.html" class="js-logo-clone">ShopMax</a></div><div class="site-mobile-menu-close "><span class="ion-ios-close js-menu-toggle"></span></div></div><div class="site-mobile-menu-body"><ul class="site-nav-wrap">
+        <li class="has-children "><span class="arrow-collapse collapsed" data-toggle="collapse" data-target="#collapseItem0" aria-expanded="false"></span>
+        <a href="index.html">Home</a>
+        <ul class="collapse" id="collapseItem0" style="">
+        <li><a href="#">Menu One</a></li>
+        <li><a href="#">Menu Two</a></li>
+        <li><a href="#">Menu Three</a></li>
+        <li class="has-children"><span class="arrow-collapse collapsed" data-toggle="collapse" data-target="#collapseItem1"></span>
+        <a href="#">Sub Menu</a>
+        <ul class="collapse" id="collapseItem1">
+        <li><a href="#">Menu One</a></li>
+        <li><a href="#">Menu Two</a></li>
+        <li><a href="#">Menu Three</a></li>
+        </ul>
+        </li>
+        </ul>
+        </li>
+        <li class="active"><a href="shop.html">Shop</a></li>
+        <li><a href="#">Catalogue</a></li>
+        <li><a href="#">New Arrivals</a></li>
+        <li><a href="contact.html">Contact</a></li>
+        </ul></div></div>
     <!--Top Navigation Bar container-->
     <nav class="navbar navbar-expand-md navbar-light bg-white">
         <a class="navbar-brand" href="#">Apparel</a>
@@ -36,24 +59,18 @@
                         <a class="nav-link" href="/Shop.html">SHOP</a>
                     </li>
                     <li class="nav-item">
-                        <a class="nav-link" href="#">CATALOGUE</a>
-                    </li>
-                    <li class="nav-item">
-                        <a class="nav-link" href="#">NEW ARRIVALS</a>
-                    </li>
-                    <li class="nav-item">
                         <a class="nav-link" href="#">CONTACT</a>
                     </li>
                 </ul>
                 <div class="icons">
                     <div class="search-box">
-                        <input class="search-input" type="text" name="" placeholder="Pesquise">
-                        <a href="#" class="search-btn">
-                          <i class="fas fa-search"></i>
-                        </a>     
-                      </div>
-                    <i class="fas fa-heart"></i>
-                    <i class="fas fa-shopping-cart"></i>
+                        <input class="search-txt" type="text" name="" placeholder="Type to Search">
+                   <a class="search-btn" href="#">
+                     <i class="fas fa-search"></i>
+                   </a>
+                   </div>
+                   <i class="far fa-heart"></i>
+                   <i class="fas fa-shopping-cart"></i>
                 </div>
         </div>
     </nav>

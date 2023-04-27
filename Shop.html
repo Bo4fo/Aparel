@@ -13,6 +13,8 @@
         integrity="sha384-GLhlTQ8iRABdZLl6O3oVMWSktQOp6b7In1Zl3/Jr59b6EGGoI1aFkw7cmDA6j6gD" crossorigin="anonymous">
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/css/all.min.css">
     <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:opsz,wght,FILL,GRAD@48,400,0,0" />
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-KK94CHFLLe+nY2dmCWGMq91rCGa5gtU4mk92HdvYe+M/SXH301p5ILy+dN9+nJOZ" crossorigin="anonymous">
+</head>
 
 <body>
     <!--Top Navigation Bar container-->
@@ -37,21 +39,20 @@
                         <a class="nav-link" href="#">SHOP</a>
                     </li>
                     <li class="nav-item">
-                        <a class="nav-link" href="#">CATALOGUE</a>
-                    </li>
-                    <li class="nav-item">
-                        <a class="nav-link" href="#">NEW ARRIVALS</a>
-                    </li>
-                    <li class="nav-item">
                         <a class="nav-link" href="#">CONTACT</a>
                     </li>
                 </ul>
                 <div class="icons">
-                    <i class="fas fa-search"></i>
-                    <i class="fas fa-heart"></i>
-                    <i class="fas fa-shopping-cart"></i>
-                </div>
-        </div>
+                  <div class="search-box">
+                      <input class="search-txt" type="text" name="" placeholder="Type to Search">
+                 <a class="search-btn" href="#">
+                   <i class="fas fa-search"></i>
+                 </a>
+                 </div>
+                 <i class="far fa-heart"></i>
+                 <i class="fas fa-shopping-cart"></i>
+              </div>
+      </div>
     </nav>
     <div class="header">
         <img src="Assets /images /header-bg.png" alt="header image" class="header-img">
@@ -188,8 +189,21 @@
                             <span style="padding-left: 10px;">Collections</span>
                           </h2></div>
                           <div class="discover-container">
+                            <a href="#" class="product-category-b1">WOMEN <span>25 items</span></a>
+                            <img src="Assets /images /model-1.png" alt="Product Image" class="discover-image">
 
                           </div>
+                          <div class="discover-container-0">
+                            <a href="#" class="model-category">MEN <span>45 items</span></a>
+                            <img src="Assets /images /product-image-2.png" alt="Product Image" class="model-image-2">
+
+                          </div>
+                          <div class="discover-container-1">
+                            <a href="#" class="model-category-2">Shoes<span>25 items</span></a>
+                            <img src="Assets /images /shoe-1.png" alt="Product Image" class="model-image-3">
+
+                          </div>
+
                     </div>
                     <!-- side- section-shop -->
                     <div class="side-section-shop">
@@ -269,5 +283,6 @@
             crossorigin="anonymous"></script>
             <script src="/Assets /Js/Custom.js"></script>
 </body>
+
 
 </html>
