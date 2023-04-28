@@ -5,12 +5,20 @@
     margin: 0;
     padding: 0;
     font-size: 18px;
-    font-family: "Ubuntu Mono", monospace;
+    font-family: "Ubuntu Mono", monospace ;
+    /* font-family: "Ubuntu Mono", monospace !important; */
 }  
 
 :root {
     --my-color: rgba(108, 112, 235, 1);
   }
+
+h1, h2, h3, h4, h5, h6 {
+    font-family: "Ubuntu Mono", monospace !important;
+
+}
+
+
 
 .navbar-nav {
     display: flex;
@@ -206,6 +214,11 @@
     background: #f9f9f9;
 }
 
+.product-item  a{
+    border-radius: 20px;
+
+}
+
 .product-item-2 {
     height: 270px;
     width: 340px;
@@ -213,6 +226,11 @@
     margin-left: 750px;
     float: left;
     margin-top: -590px;
+}
+
+.product-item-2  a{
+    border-radius: 20px;
+
 }
 
 .product-item-3 {
@@ -224,10 +242,18 @@
     margin-top: -270px;
 }
 
+
+.product-item-3  a{
+    border-radius: 20px;
+
+}
+
+
 .clearfix::after {
     content: "";
     clear: both;
     display: table;
+    
 }
 
 .product-item img {
@@ -268,7 +294,7 @@
     -ms-transform: translate(-50%, -50%);
     transform: translate(-50%, -50%);
     text-decoration: none;
-    font-family: 'Nanum Myeongjo', serif;
+    /* font-family: 'Nanum Myeongjo', serif; */
 }
 
 .model-category span {
