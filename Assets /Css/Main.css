@@ -1,6 +1,16 @@
-@import url('https://fonts.googleapis.com/css2?family=Nanum+Myeongjo&display=swap');
+@import url('https://fonts.googleapis.com/css?family=Ubuntu+Mono:400,700');
 
+* {
+    box-sizing:border-box;
+    margin: 0;
+    padding: 0;
+    font-size: 18px;
+    font-family: "Ubuntu Mono", monospace;
+}  
 
+:root {
+    --my-color: rgba(108, 112, 235, 1);
+  }
 
 .navbar-nav {
     display: flex;
@@ -477,7 +487,7 @@
 }
 
 .text-black {
-    margin-top: ;
+    /* margin-top: ; */
 }
 
 .dropdown {
@@ -677,4 +687,96 @@ ul {
   {
    background:white;
   } 
+  
+
+  /* footer */
+
+  footer {
+    background-color: #f7f7f7;
+    /* background-color: #ffe70e; */
+    padding: 50px;
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+  }
+  
+  .promo {
+    flex: 1 1 300px;
+    margin-right: 20px;
+  }
+  
+  .promo img {
+    max-width: 100%;
+    max-height: 60%;
+  }
+  
+  .quick-links, .contact-info, .subscribe {
+    flex: 1 1 200px;
+    margin-right: 20px;
+  }
+
+  /* .quick-links {
+    display: flex;
+    flex-wrap: wrap;
+  }
+  
+  .quick-links ul {
+    margin-top: -53%;
+
+    list-style: none;
+    margin: 0;
+    padding: 0;
+    display: flex;
+    flex-wrap: wrap;
+  }
+  
+  .quick-links li {
+    flex-basis: calc(33.33% - 20px);
+  }
+   */
+  @media screen and (max-width: 767px) {
+    .quick-links li {
+      flex-basis: calc(50% - 20px);
+    }
+  }
+  
+  
+  .quick-links a {
+    color: #333;
+    text-decoration: none;
+  }
+  
+  .quick-links a:hover {
+    text-decoration: underline;
+  }
+  
+  .subscribe form {
+    display: flex;
+  }
+  
+  .subscribe label {
+    display: none;
+  }
+  
+  .subscribe input {
+    flex: 1;
+    margin-right: 10px;
+    padding: 5px;
+    border: 1px solid #ccc;
+    border-radius: 3px;
+  }
+  
+  .subscribe button {
+    /* background-color: #333; */
+    background-color: var(--my-color);
+    color: #fff;
+    border: none;
+    border-radius: 3px;
+    padding: 5px 10px;
+    cursor: pointer;
+  }
+  
+  .subscribe button:hover {
+    background-color: rgba(81, 87, 253, 0.752);;
+  }
   
