@@ -4,6 +4,9 @@
     padding: 40px;
     margin-top: 40px;
 
+    /* background-color: #7b7b7b; */
+    margin-left: 30px ;
+
    
 }
 
@@ -22,6 +25,10 @@
     font-family: 'Audiowide', cursive;
     font-family: 'Montserrat Alternates', sans-serif;
 
+}
+
+.second-title-section span {
+    font-size: 30px;
 }
 
 .product-container {
