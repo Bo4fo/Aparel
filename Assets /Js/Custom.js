@@ -1,7 +1,7 @@
-// Menu side toggle
-$('document').ready(function(){
-  $('button.navbar-toggle').click(function(){
-    var navbar_obj = $($(this).data("target"));
-    navbar_obj.toggleClass("open");
+  // JavaScript code for mobile view functionality
+  const mobileToggle = document.querySelector('.navbar-toggler');
+  const mobileMenu = document.querySelector('.navbar-collapse');
+
+  mobileToggle.addEventListener('click', function () {
+      mobileMenu.classList.toggle('show');
   });
-});

@@ -16,6 +16,11 @@
     position: relative;
     left: -4px;
   }
+  .navbar-nav {
+    display: flex;
+    justify-content: center;
+    font-size: 15px;
+}
 
   .header-img {
     position: relative;
@@ -31,7 +36,7 @@
     display: flex;
     justify-content: center;
     align-items: center;
-    background-color: #a40909;
+    /* background-color: #a40909; */
   }
 
   .navbar-brand {
@@ -198,7 +203,7 @@
   .second-product-item-3-3 {
     background: #f9f9f9;
     position: relative;
-    top: 1660px;
+    top: 1529px;
     left: -784px;
     height: 400px;
   }
@@ -208,4 +213,9 @@
     top: 2728px;
     left: -784px;
 }
+/* .icons {
+  display: flex;
+  align-items: center;
+  margin-left: 150px;
+} */
 }
