@@ -1,156 +1,362 @@
-.product-shelf-1{
+.product-shelf-1 {
     width: 340px;
     height: 400px;
     background-color: blueviolet;
     margin-top: 50px;
-    
+
 }
 
-.shelf-img0{
+.shelf-img0 {
     margin-top: 98px;
     margin-left: 33px;
     cursor: pointer;
     height: 350px;
     /* background-color: aqua; */
 }
-.product-shelf-2{
+
+.product-shelf-2 {
     width: 340px;
     height: 400px;
     background-color: rgb(226, 110, 43);
     margin-top: -400px;
     margin-left: 420px;
-    
+
 }
 
-.shelf-img2{
-    margin-top:98px;
-    margin-left: 33px;
-    cursor: pointer;
-    height: 350px;
-    /* background-color: aqua; */
-}
-.product-shelf-3{
-    width: 340px;
-    height: 400px;
-    background-color: blueviolet;
-    margin-top: 130px;
-    
-}
-
-.shelf-img3{
+.shelf-img2 {
     margin-top: 98px;
     margin-left: 33px;
     cursor: pointer;
     height: 350px;
     /* background-color: aqua; */
 }
-.product-shelf-4{
+
+.product-shelf-3 {
+    width: 340px;
+    height: 400px;
+    background-color: blueviolet;
+    margin-top: 130px;
+
+}
+
+.shelf-img3 {
+    margin-top: 98px;
+    margin-left: 33px;
+    cursor: pointer;
+    height: 350px;
+    /* background-color: aqua; */
+}
+
+.product-shelf-4 {
     width: 340px;
     height: 400px;
     background-color: rgb(181, 119, 12);
     margin-top: -400px;
-   margin-left: 420px;
-    
+    margin-left: 420px;
+
 }
 
-.shelf-img4{
+.shelf-img4 {
     margin-top: 98px;
     margin-left: 33px;
     cursor: pointer;
     height: 350px;
     /* background-color: aqua; */
 }
-.product-shelf-5{
+
+.product-shelf-5 {
     width: 340px;
     height: 400px;
     background-color: blueviolet;
     margin-top: 130px;
-    
+
 }
 
-.shelf-img5{
+.shelf-img5 {
     margin-top: 98px;
     margin-left: 33px;
     cursor: pointer;
     height: 350px;
     /* background-color: aqua; */
 }
-.product-shelf-6{
+
+.product-shelf-6 {
     width: 340px;
     height: 400px;
     background-color: blueviolet;
     margin-top: -400px;
     margin-left: 420px;
-    
+
 }
 
-.shelf-img6{
+.shelf-img6 {
     margin-top: 98px;
     margin-left: 33px;
     cursor: pointer;
     height: 350px;
     /* background-color: aqua; */
 }
-.shelf-item0{
+
+.shelf-item0 {
     margin-top: -455px;
 }
-.shelf-rating{
+
+.shelf-rating {
     color: #5e5e5e;
     font-size: 13px;
-    
+
 }
+
 .title-section-shop h2 {
     padding-left: 25px;
     border-left: 4px solid #6c70eb;
     display: flex;
     font-family: 'Audiowide', cursive;
     font-family: 'Montserrat Alternates', sans-serif;
-margin-top: 180px;
+    margin-top: 180px;
 }
-.discover-container{
+
+.discover-container {
     width: 624px;
     height: 590px;
     background-color: rgb(40, 119, 106);
-    
+
 }
-.discover-container-0{
+
+.discover-container-0 {
     width: 340px;
     height: 270px;
     background-color: rgb(79, 26, 164);
     margin-top: -590px;
     margin-left: 750px;
-    
+
 }
-.discover-container-1{
+
+.discover-container-1 {
     width: 340px;
     height: 270px;
     background-color: rgb(164, 26, 49);
     margin-top: 50px;
     margin-left: 750px;
-    
+
 }
-.discover-image{
+
+.discover-image {
     margin-top: -310px;
     margin-left: 50px;
 
 }
-/* .p1{
+
+/* Modal Styles */
+.modal {
+    display: none;
     position: relative;
-    top: -1px;
-    left: -5px;
+    z-index: 1;
+    left: 0;
+    top: 0;
+    width: 100%;
+    height: 100%;
+    overflow: hidden;
+    background-color: rgba(0, 0, 0, 0.4);
 }
-.P2{
+
+.modal-content1 {
+    background-color: #d7d2d2;
+    margin: 15% auto;
+    padding: 10px;
+    border: 1px solid #888;
+    width: 784px;
+    height: 481px;
+    text-align: center;
     position: relative;
-    top: -10px;
-    left: -1px;
+    left: -40px;
 }
-.P3{
+
+.modal-content1 h2 {
+    /* font-size: initial; */
+    font-size: larger;
     position: relative;
-    top: -10px;
-    left: -1px;
+    top: 45px;
+    left: 49px;
 }
-.P4{
+
+.close-button {
+    background-color: transparent;
+    border: none;
+    color: #000;
+    cursor: pointer;
+    font-size: 24px;
+    position: absolute;
+    top: 10px;
+    right: 10px;
+}
+
+.close-button:hover {
+    color: #ff0000;
+}
+
+.itemmodal-conatianer {
+    background-color: #e6e6e7;
     position: relative;
-    top: -19px;
-    left: -3px;
+    top: -450px;
+    left: 33px;
+    width: 272px;
+    height: 334px;
+}
+
+.image-modal-2 {
+    height: 100px;
+    width: 100px;
+    position: relative;
+    top: -80px;
+    left: -40px;
+}
+
+.add-bag {
+    text-align: center;
+}
+
+.add-bag button {
+    background-color: #6c70eb;
+    /* color: white; */
+    border: none;
+    padding: 10px 20px;
+    font-size: 16px;
+    cursor: pointer;
+    border-radius: 50px;
+    position: relative;
+    top: -62px;
+    left: 139px;
+}
+
+.add-bag button:hover {
+    background-color: #6c70eb48;
+}
+
+.product-details {
+    position: relative;
+    left: 260px;
+    top: 100px;
+
+}
+
+.product-details p {
+    /* Your styles for the product details paragraphs */
+}
+
+.form-select {
+    width: 90px !important;
+    padding: 8px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    font-size: 16px;
+    color: #333;
+    background-color: #fff;
+    position: relative;
+    top: 33px;
+    left: 182px;
+}
+
+.form-select option {
+    padding: 5px;
+    font-size: 14px;
+    color: #555;
+}
+
+.form-select option:selected {
+    font-weight: bold;
+    background-color: #f0f0f0;
+}
+
+.colorm {
+    position: relative;
+    top: 59px;
+    left: -34px;
+    font-size: medium;
+}
+
+.sizem {
+    position: relative;
+    top: -153px;
+    ;
+    left: -31px;
+}
+
+/* .red1 {
+      background-color: red;
+    }  */
+.vl {
+    /* font-size: initial; */
+    font-size: larger;
+    position: relative;
+    top: 2px;
+    left: 0px;
+}
+
+.red1 {
+    background-color: red;
+    position: relative;
+    top: 43px;
+    left: 0px;
+}
+
+.yellow2 {
+    background-color: yellow;
+    position: relative;
+    top: 17px;
+    left: 22px;
+}
+
+.green3 {
+    background-color: #12b125;
+    position: relative;
+    top: -7px;
+    left: 45px;
+}
+
+.quantity-input {
+    width: 63px;
+    padding: 3px;
+    font-size: 16px;
+    position: relative;
+    top: -73px;
+    left: 317px;
+    border-radius: 8px;
+}
+
+.formQ p {
+    position: relative;
+    top: -28px;
+    left: 244px;
+    font-size: large;
+}
+
+.aboutproduct {
+    font-size: 10px;
+    width: 300px;
+    height: 100px;
+    /* background-color: #12b125; */
+    position: relative;
+    top: 38px;
+    left: 329px;
+    text-align: start;
+}
+
+/* #pricem{
+    font-size: medium;
+    position: relative;
+    top: 10px;
+    left: 10px;
 } */
+#pricem p {
+    font-size: x-large;
+    position: relative;
+    top: 84px;
+    left: -23px;
+}
+
+.modal-rating {
+    position: relative;
+    top: 2px;
+    left: 42px;
+}

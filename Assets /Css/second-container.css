@@ -341,13 +341,13 @@
   }
 
   .site-block-links a:hover {
-    background-color: #d8cfcf;
-    color: #7a16b3;
+    background-color: #7a67d6;
+    color: #060506;
   }
   
   .round {
     border-radius: 50%;
-    background-color: #0000ff;
+    background-color: #ceced4;
     margin: 2px;
     text-decoration: none;
   }
